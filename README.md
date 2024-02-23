@@ -5,7 +5,7 @@ countdown timers are versatile tools that help people track time efficiently and
 
 # Run 
 ```bash
-    JavaScript || HTML || CSS
+     HTML || CSS ||   JavaScript
 ```
 
 # Author
