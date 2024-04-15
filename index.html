@@ -1,1 +1,88 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer ! </title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="main">
+        <div class="shadow"> 
+            <div class="title">Welcome to you !
+                <br>TimerCountdown
+            </div> 
+            <div class="title" id="end-date">23 feb 2024 01:30 AM</div> 
+            
+            <div class="colume">
+                <div>
+                    <input type="text" readonly value="00">
+                    <br>
+                    <label for="">Day</label>
+                </div>
+
+                <div>
+                    <input type="text" readonly value="00">
+                    <br>
+                    <label for="">Hours</label>
+                </div> 
+                
+                <div>
+                    <input type="text"  readonly value="00">
+                    <br>
+                    <label for="">Minutes</label>
+                </div> 
+                
+                <div>
+                    <input type="text"  readonly value="00">
+                    <br>
+                    <label for="">Second</label>
+                </div>
+            </div>
+            <div class="title"> That's  Current time ! 
+                <br> 
+                According to Indian Time Zoon!
+                
+            </div>
+
+
+            <!-- Digital Clock  -->
+            <div class="title" id="showTime">
+                <div class="digital">
+                    <div>
+                        <input type="text" readonly id="hours" value="00">
+                        <br>
+                        <label for="hours">Hours</label>
+                    </div>
+            
+                    <div>
+                        <input type="text" readonly id="minutes" value="00">
+                        <br>
+                        <label for="minutes">Minutes</label>
+                    </div>
+            
+                    <div>
+                        <input type="text" readonly id="seconds" value="00">
+                        <br>
+                        <label for="seconds">Seconds</label>
+                    </div>
+            
+                    <div>
+                        <input type="text" readonly id="session" value="AM">
+                        <br>
+                        <label for="session">Session</label>
+                    </div>
+                </div>
+            </div>
+            
+
+           
+           
+        </div>
+    </div>
+</body>
+<script src="clock.js"></script>
+<script src="digitalClock.js"></script>
+</html>
+
